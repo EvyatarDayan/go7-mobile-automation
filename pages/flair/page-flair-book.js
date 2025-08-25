@@ -1,0 +1,25 @@
+module.exports = {
+
+        main: {
+            roundTripButton: '//android.view.ViewGroup[@content-desc="flair-btn__round-trip"]',
+            oneWayButton: '//android.view.ViewGroup[@content-desc="flair-btn__one-way"]',
+            fromButton: '//android.view.ViewGroup[@content-desc="flair-btn__from"]',
+            toButton: '//android.view.ViewGroup[@content-desc="flair-btn__to"]',
+                destination_yxx: '//android.widget.CheckedTextView[@text="abbotsford - yxx"]',
+                destination_yyc: '//android.widget.CheckedTextView[@text="calgary - yyc"]',
+                destination_cun: '//android.widget.CheckedTextView[@text="cancun - cun"]',
+                destination_yyg: '//android.widget.CheckedTextView[@text="charlottetown - yyg"]',
+            departDateButton: '//android.view.ViewGroup[@content-desc="flair-btn__depart-date"])[1]',
+            selectDateButton: '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.ImageView',
+            returnDateButton: '//android.view.ViewGroup[@content-desc="flair-btn__return-date"]',
+            travellerButton: '//android.view.ViewGroup[@content-desc="flair-btn__passenger"]',
+                adultPlusButton: '//android.view.ViewGroup[@content-desc="tab_nav-account"]',
+                adultMinudButton: '//android.view.ViewGroup[@content-desc="tab_nav-account"]',
+                childrenPlusButton: '//android.view.ViewGroup[@content-desc="tab_nav-account"]',
+                childrenMinudButton: '//android.view.ViewGroup[@content-desc="tab_nav-account"]',
+                infantPlusButton: '//android.view.ViewGroup[@content-desc="tab_nav-account"]',
+                infantMinudButton: '//android.view.ViewGroup[@content-desc="tab_nav-account"]',
+            promoCodeInput: '//android.widget.EditText[@text="promo code?"]',
+            searchFlightButton: '//android.view.ViewGroup[@content-desc="flair-btn__search-flight"]',
+        },
+};

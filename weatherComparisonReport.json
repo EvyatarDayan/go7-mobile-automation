@@ -1,0 +1,152 @@
+[
+  {
+    "City": "Tokyo",
+    "Temp": {
+      "inTheAPI": 35,
+      "inTheAPP": 30,
+      "inTheWEB": 18,
+      "isMatch": false
+    },
+    "Feels_like": {
+      "inTheAPI": 42,
+      "inTheAPP": 36,
+      "inTheWEB": 18,
+      "isMatch": false
+    }
+  },
+  {
+    "City": "Delhi",
+    "Temp": {
+      "inTheAPI": 29,
+      "inTheAPP": 30,
+      "inTheWEB": 27,
+      "isMatch": false
+    },
+    "Feels_like": {
+      "inTheAPI": 34,
+      "inTheAPP": 37,
+      "inTheWEB": 28,
+      "isMatch": false
+    }
+  },
+  {
+    "City": "Beijing",
+    "Temp": {
+      "inTheAPI": 32,
+      "inTheAPP": 23,
+      "inTheWEB": 6,
+      "isMatch": false
+    },
+    "Feels_like": {
+      "inTheAPI": 33,
+      "inTheAPP": 24,
+      "inTheWEB": 6,
+      "isMatch": false
+    }
+  },
+  {
+    "City": "Moscow",
+    "Temp": {
+      "inTheAPI": 15,
+      "inTheAPP": 16,
+      "inTheWEB": 6,
+      "isMatch": false
+    },
+    "Feels_like": {
+      "inTheAPI": 15,
+      "inTheAPP": 16,
+      "inTheWEB": 6,
+      "isMatch": false
+    }
+  },
+  {
+    "City": "Istanbul",
+    "Temp": {
+      "inTheAPI": 24,
+      "inTheAPP": 30,
+      "inTheWEB": 13,
+      "isMatch": false
+    },
+    "Feels_like": {
+      "inTheAPI": 25,
+      "inTheAPP": 30,
+      "inTheWEB": 11,
+      "isMatch": false
+    }
+  },
+  {
+    "City": "London",
+    "Temp": {
+      "inTheAPI": 13,
+      "inTheAPP": 21,
+      "inTheWEB": 8,
+      "isMatch": false
+    },
+    "Feels_like": {
+      "inTheAPI": 12,
+      "inTheAPP": 20,
+      "inTheWEB": 6,
+      "isMatch": false
+    }
+  },
+  {
+    "City": "Berlin",
+    "Temp": {
+      "inTheAPI": 13,
+      "inTheAPP": 23,
+      "inTheWEB": 6,
+      "isMatch": false
+    },
+    "Feels_like": {
+      "inTheAPI": 12,
+      "inTheAPP": 23,
+      "inTheWEB": 2,
+      "isMatch": false
+    }
+  },
+  {
+    "City": "Paris",
+    "Temp": {
+      "inTheAPI": 14,
+      "inTheAPP": 24,
+      "inTheWEB": 6,
+      "isMatch": false
+    },
+    "Feels_like": {
+      "inTheAPI": 14,
+      "inTheAPP": 24,
+      "inTheWEB": 4,
+      "isMatch": false
+    }
+  },
+  {
+    "City": "Rome",
+    "Temp": {
+      "inTheAPI": 22,
+      "inTheAPP": 27,
+      "inTheWEB": 11,
+      "isMatch": false
+    },
+    "Feels_like": {
+      "inTheAPI": 23,
+      "inTheAPP": 29,
+      "inTheWEB": 11,
+      "isMatch": false
+    }
+  },
+  {
+    "City": "Cairo",
+    "Temp": {
+      "inTheAPI": 27,
+      "inTheAPP": 31,
+      "inTheWEB": 25,
+      "isMatch": false
+    },
+    "Feels_like": {
+      "inTheAPI": 29,
+      "inTheAPP": 31,
+      "inTheWEB": 26,
+      "isMatch": false
+    }
+  }
+]

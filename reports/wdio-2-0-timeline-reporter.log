@@ -1,0 +1,97 @@
+{
+  "start": "2024-04-17T06:51:57.327Z",
+  "end": "2024-04-17T06:51:59.377Z",
+  "capabilities": {
+    "platform": "LINUX",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "platformName": "Android",
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+        "args": [
+          "--proxy-bypass-list=<-loopback>",
+          "test-type",
+          "--proxy-server=http://194.165.185.61:26082",
+          "--disable-features=Translate"
+        ]
+      },
+      "newCommandTimeout": 0,
+      "deviceName": "android",
+      "systemPort": 8202,
+      "udid": "4fa4315f",
+      "chromedriverPort": 18082,
+      "skipServerInstallation": true
+    },
+    "platformName": "Android",
+    "browserName": "chrome",
+    "goog:chromeOptions": {
+      "args": [
+        "--proxy-bypass-list=<-loopback>",
+        "test-type",
+        "--proxy-server=http://194.165.185.61:26082",
+        "--disable-features=Translate"
+      ]
+    },
+    "newCommandTimeout": 0,
+    "deviceName": "4fa4315f",
+    "systemPort": 8202,
+    "udid": "4fa4315f",
+    "chromedriverPort": 18082,
+    "skipServerInstallation": true,
+    "appPackage": "com.android.chrome",
+    "appActivity": "com.google.android.apps.chrome.Main",
+    "deviceUDID": "4fa4315f",
+    "deviceApiLevel": 30,
+    "platformVersion": "11",
+    "deviceScreenSize": "1080x2400",
+    "deviceScreenDensity": 450,
+    "deviceModel": "LE2113",
+    "deviceManufacturer": "OnePlus",
+    "pixelRatio": 2.8125,
+    "statBarHeight": 104,
+    "viewportRect": {
+      "left": 0,
+      "top": 104,
+      "width": 1080,
+      "height": 2058
+    },
+    "sessionId": "1a73ecbadecd6ad64f6a02b117fb0e6e38fb4db2"
+  },
+  "host": "hub.browserstack.com",
+  "port": 443,
+  "framework": "mocha",
+  "duration": 2050,
+  "suites": [
+    {
+      "title": "Test for test",
+      "duration": 739,
+      "start": "2024-04-17T06:51:57.565Z",
+      "end": "2024-04-17T06:51:58.304Z",
+      "tests": [
+        {
+          "title": "Select destinations",
+          "start": "2024-04-17T06:51:57.565Z",
+          "end": "2024-04-17T06:51:58.304Z",
+          "duration": 739,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///Users/evyatar.da/IdeaProjects/go7-mobile-automation/tests/go7/sanity/testForTest-Pass.js"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  }
+}

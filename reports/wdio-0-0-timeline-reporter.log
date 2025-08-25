@@ -1,0 +1,132 @@
+{
+  "start": "2024-07-01T07:10:29.795Z",
+  "end": "2024-07-01T07:11:34.674Z",
+  "capabilities": {
+    "webStorageEnabled": false,
+    "locationContextEnabled": false,
+    "browserName": "",
+    "platform": "MAC",
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "takesScreenshot": true,
+    "networkConnectionEnabled": false,
+    "platformName": "iOS",
+    "bstack:options": {
+      "buildIdentifier": "3"
+    },
+    "newCommandTimeout": 0,
+    "realMobile": "true",
+    "deviceName": "iPhone 15",
+    "safariIgnoreFraudWarning": true,
+    "orientation": "PORTRAIT",
+    "deviceOrientation": "PORTRAIT",
+    "noReset": true,
+    "automationName": "XCUITest",
+    "keychainPath": "[REDACTED VALUE]",
+    "keychainPassword": "[REDACTED VALUE]",
+    "useXctestrunFile": true,
+    "bootstrapPath": "/usr/local/.browserstack/config/wda_derived_data_17_2.4.1.5.14.0_647c877a-17fe-4408-a32b-48393d187f5d/Build/Products",
+    "browserstack.isTargetBased": "true",
+    "autoAcceptAlerts": true,
+    "autoGrantPermissions": true,
+    "locationServicesAuthorized": true,
+    "bundleID": "io.go7.white-label-app",
+    "bundleId": "io.go7.white-label-app",
+    "udid": "00008120-0011295E0AFBC01E",
+    "webkitResponseTimeout": 20000,
+    "safariInitialUrl": "http://mobile-internet-check.browserstack.com",
+    "waitForQuiescence": false,
+    "wdaStartupRetries": 3,
+    "sessionId": "d485144d6a0b6a22d73191d85252919d84feb370"
+  },
+  "host": "hub.browserstack.com",
+  "port": 443,
+  "framework": "mocha",
+  "mochaOpts": {
+    "timeout": 40000
+  },
+  "duration": 64879,
+  "suites": [
+    {
+      "title": "Login",
+      "duration": 63373,
+      "start": "2024-07-01T07:10:30.086Z",
+      "end": "2024-07-01T07:11:33.459Z",
+      "tests": [
+        {
+          "title": "Navigate to login page",
+          "start": "2024-07-01T07:10:30.087Z",
+          "end": "2024-07-01T07:10:36.990Z",
+          "duration": 6903,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Try to login with existing user and wrong password",
+          "start": "2024-07-01T07:10:36.991Z",
+          "end": "2024-07-01T07:10:51.825Z",
+          "duration": 14834,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Login with valid user 1",
+          "start": "2024-07-01T07:10:51.825Z",
+          "end": "2024-07-01T07:11:02.847Z",
+          "duration": 11022,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Log out user 1",
+          "start": "2024-07-01T07:11:02.848Z",
+          "end": "2024-07-01T07:11:05.515Z",
+          "duration": 2667,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Login with valid user 2",
+          "start": "2024-07-01T07:11:05.515Z",
+          "end": "2024-07-01T07:11:17.503Z",
+          "duration": 11988,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Log out user 2",
+          "start": "2024-07-01T07:11:17.506Z",
+          "end": "2024-07-01T07:11:20.279Z",
+          "duration": 2773,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Login with valid user 1 (again)",
+          "start": "2024-07-01T07:11:20.284Z",
+          "end": "2024-07-01T07:11:30.835Z",
+          "duration": 10551,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Log out user 1",
+          "start": "2024-07-01T07:11:30.836Z",
+          "end": "2024-07-01T07:11:33.449Z",
+          "duration": 2613,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///Users/evyatar.da/IdeaProjects/go7-mobile-automation/tests/go7/sanity/san-login.js"
+  ],
+  "state": {
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0
+  }
+}

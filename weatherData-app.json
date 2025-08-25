@@ -1,0 +1,52 @@
+[
+  {
+    "City": "Tokyo",
+    "Temp": 30,
+    "Feels_like": 36
+  },
+  {
+    "City": "Delhi",
+    "Temp": 30,
+    "Feels_like": 37
+  },
+  {
+    "City": "Beijing",
+    "Temp": 23,
+    "Feels_like": 24
+  },
+  {
+    "City": "Moscow",
+    "Temp": 16,
+    "Feels_like": 16
+  },
+  {
+    "City": "Istanbul",
+    "Temp": 30,
+    "Feels_like": 30
+  },
+  {
+    "City": "London",
+    "Temp": 21,
+    "Feels_like": 20
+  },
+  {
+    "City": "Berlin",
+    "Temp": 23,
+    "Feels_like": 23
+  },
+  {
+    "City": "Paris",
+    "Temp": 24,
+    "Feels_like": 24
+  },
+  {
+    "City": "Rome",
+    "Temp": 27,
+    "Feels_like": 29
+  },
+  {
+    "City": "Cairo",
+    "Temp": 31,
+    "Feels_like": 31
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "start": "2024-06-29T18:13:22.278Z",
+  "end": "2024-06-29T18:13:22.300Z",
+  "capabilities": {
+    "0": {
+      "appium:autoAcceptAlerts": true,
+      "appium:autoGrantPermissions": true,
+      "appium:locationServicesAuthorized": true,
+      "platformName": "iOS",
+      "bstack:options": {
+        "deviceName": "iPhone 15",
+        "platformVersion": "17.2",
+        "platformName": "iOS",
+        "buildName": "GO7 White Label App",
+        "buildIdentifier": "3",
+        "projectName": "GO7"
+      }
+    }
+  },
+  "host": "hub.browserstack.com",
+  "framework": "mocha",
+  "mochaOpts": {
+    "timeout": 40000
+  },
+  "duration": 22,
+  "suites": [],
+  "specs": [
+    "file:///Users/evyatar.da/IdeaProjects/go7-mobile-automation/tests/go7/sanity/san-search.js"
+  ],
+  "state": {
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0
+  }
+}

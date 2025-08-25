@@ -1,0 +1,30 @@
+{
+  "start": "2024-06-19T10:38:46.742Z",
+  "end": "2024-06-19T10:38:46.742Z",
+  "capabilities": {
+    "0": {
+      "bstack:options": {
+        "deviceName": "Samsung Galaxy S24Ultra",
+        "platformVersion": "14.0",
+        "platformName": "android",
+        "buildIdentifier": "2"
+      }
+    },
+    "1": {}
+  },
+  "host": "hub.browserstack.com",
+  "framework": "mocha",
+  "mochaOpts": {
+    "timeout": 10000
+  },
+  "duration": 0,
+  "suites": [],
+  "specs": [
+    "file:///Users/evyatar.da/IdeaProjects/go7-mobile-automation/tests/go7/sanity/san-fullBooking-RT.js"
+  ],
+  "state": {
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0
+  }
+}
