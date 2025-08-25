@@ -1,4 +1,0 @@
-[35m[Appium][39m Received SIGTERM - shutting down
-[38;5;0m[AppiumDriver@1fa4][0m There are no active sessions for cleanup
-[38;5;16m[HTTP][0m Waiting until the server is closed
-[38;5;16m[HTTP][0m Received server close event

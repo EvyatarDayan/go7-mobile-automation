@@ -31,7 +31,7 @@ Inspector sample configuration:
     "appium:platformVersion": "16.4",
     "appium:deviceName": "Test-iPhone14",
     "appium:app": "/Users/evyatar.da/IdeaProjects/go7-mobile-automation/app/ios/MyRNDemoApp.app",
-    "appium:automationName": "XCUItest"
+    "appium:automationName": "XCUITest"
     }
 
 

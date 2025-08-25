@@ -1,5 +1,5 @@
 const projectPath = require("path");
-const iosAppPath = projectPath.join(process.cwd(), "app/ios/Forkit.app");
+const iosAppPath = projectPath.join(process.cwd(), "app/ios/talkSvenska.app");
 exports.config = {
 
 // ====================
@@ -14,8 +14,8 @@ exports.config = {
 
 
         // Personal
-        // '../../tests/personal/TalkSvenska/talkSvenska-sanity.js',
-        '../../tests/personal/forkit/forkit-sanity.js',
+        '../../tests/personal/TalkSvenska/talkSvenska-sanity.js',
+        // '../../tests/personal/forkit/forkit-sanity.js',
     ],
 
     exclude: [
@@ -32,7 +32,7 @@ exports.config = {
         "platformName": "iOS",
         "appium:deviceName": "iPhone 16 Pro",
         "appium:platformVersion": "18.1",
-        "appium:automationName": "XCUItest",
+        "appium:automationName": "XCUITest",
         "appium:app": iosAppPath,
         "appium:maxTypingFrequency": "15",      // This is essential do not remove!
         "appium:autoAcceptAlerts": true,
