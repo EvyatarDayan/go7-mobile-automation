@@ -1,0 +1,66 @@
+# -----------------
+# Node.js / React Native
+# -----------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+*.lock
+
+# Metro / React Native cache
+.expo/
+.expo-shared/
+.expo-dev/
+dist/
+.cache/
+tmp/
+
+# -----------------
+# macOS / IDE
+# -----------------
+.DS_Store
+*.swp
+.idea/
+.vscode/
+*.iml
+
+# -----------------
+# iOS (Xcode)
+# -----------------
+ios/build/
+ios/DerivedData/
+ios/*.xcuserdatad
+ios/*.xcworkspace
+ios/Pods/
+ios/*.mode1v3
+ios/*.pbxuser
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcuserstate
+
+# Ignore compiled app bundles
+*.app
+*.ipa
+
+# -----------------
+# Android
+# -----------------
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/.idea/
+android/captures/
+*.iml
+
+# Ignore compiled app binaries
+*.apk
+*.aab
+
+# -----------------
+# Logs
+# -----------------
+*.log
